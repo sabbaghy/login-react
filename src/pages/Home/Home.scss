@@ -1,11 +1,41 @@
 .home{
    width: 100%;
    min-height: 100vh;
+   position: relative;
+   background: chocolate;
+}
+
+.home__content{
+   width: 100%;
+   height: 100%;
+   position: absolute;
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-around;
    align-content: center;
    align-items: center;
    text-align: center;
-   background: chocolate;
+   font-family: Russo, Barlow, sans-serif;
+}
+
+.home__title{
+   font-size: 2.5rem;
+   color: yellow;
+}
+
+.home__subtitle{
+   font-size: 1.5rem;
+   color: yellow;
+}
+
+.home__greeting {
+   display: flex;
+   flex-direction: column;
+   font-family: Barlow, sans-serif;
+   text-transform: uppercase;
+   font-size: 1.4rem;
+
+   &:hover{
+      color: yellow;
+   }
 }

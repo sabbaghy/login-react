@@ -1,12 +1,17 @@
 import React from 'react'
-import './Chat.scss'
 
+import './Chat.scss'
+import CatItems from './CatItems/CatItems'
 const Chat = ({user}) => {
    return (
-      <div>
-         <h1> Chat </h1>
-         <p> Hablando con {user} </p>
-         
+      <div className='chat'>
+         <div className='chat__content'>
+            <div className='chat__chat'>
+               <div className='chat__body'>
+                  <CatItems />
+               </div>
+            </div>
+         </div> 
       </div>
    )
 }

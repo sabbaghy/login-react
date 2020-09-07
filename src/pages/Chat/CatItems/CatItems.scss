@@ -1,0 +1,19 @@
+.catitems-container{
+   width: auto;
+   display: flex;
+   align-items: center;
+
+   img {
+      width: 40px;
+   }
+
+   label{
+      width: fit-content;
+      margin: 0 0 5px 10px;
+      font-size: 1rem;
+      padding: 10px;
+      border-radius: 5px;
+      background: #321123;
+
+   }
+}
