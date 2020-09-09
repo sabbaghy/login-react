@@ -1,15 +1,16 @@
-.catitems-container{
+.useritems-container{
    width: auto;
    display: flex;
+   // background: blue;
+   justify-content: flex-end;
+   align-items: center;
+   // border:1px solid red;
 
    img {
       width: 40px;
-      height: 40px;
    }
 
    label{
-      display: flex;
-      flex-direction: column;
       width: fit-content;
       margin: 0 0 5px 10px;
       font-size: 1rem;

@@ -1,0 +1,30 @@
+.selections {
+   height: auto;
+   display: flex;
+   justify-content: flex-end;
+}
+.selections__options{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background: darken(chocolate, 50);
+   border-radius: 5px;
+
+   label{
+      box-sizing: border-box;
+      width: 90%;
+      margin: 5px 10px;
+      padding: 6px 10px;
+      font-size: 1rem;
+      border-radius: 5px;
+      background: lighten($color: chocolate, $amount: 15);
+
+      &:hover{
+         cursor: pointer;
+         background: lighten($color: chocolate, $amount: 30);
+
+      }
+
+   }
+}
